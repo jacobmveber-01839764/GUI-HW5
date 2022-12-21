@@ -1,0 +1,100 @@
+/*
+Author: Jacob Veber
+Email: jacob_veber@student.uml.edu
+*/
+
+body {
+  background: #F8F7F2;
+}
+
+#app-holder {
+  max-width: 976px;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+#board-holder {
+  margin: 10px 0;
+}
+
+.list_group {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.list-group-item {
+  padding:3px;
+  margin: 3px;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.board {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/board-slots/board-blank.png");
+}
+
+.board-double-letter {
+  background-image: url("../images/board-slots/board-double-letter-score.png");
+}
+
+.board-double-word {
+  background-image: url("../images/board-slots/board-double-word-score.png");
+}
+
+#submission-holder {
+  padding: 10px 3px;
+}
+
+#rack-holder {
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 3px;
+}
+
+#tilerack {
+  background-color: #6C5839;
+  aspect-ratio: 7/1;
+  border: 1px solid grey;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.tile {
+  margin: 3px;
+  border: 1px solid white;
+  z-index: 1;
+}
+
+#validation-boxes {
+  margin-top: 10px;
+}
+
+#validation-boxes ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#validation-boxes ul li {
+  display: flex;
+}
+
+.light-box {
+  vertical-align: middle;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  background: grey;
+  border: 2px solid white;
+}
+
+#word-holder {
+  margin-left: 10px;
+}
